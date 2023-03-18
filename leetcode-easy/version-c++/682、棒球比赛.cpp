@@ -62,7 +62,7 @@ using namespace std;
 
 class Solution {
 public:
-    int calPoints(vector<string>& ops) {
+    int calPoints(vector<string>& operations) {
         int len = operations.size();
         int res = 0;
         // 需要一个栈来记录之前打的分！
